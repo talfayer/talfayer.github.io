@@ -76,7 +76,17 @@
     }
 
     ul.links li {
-      margin-bottom: 6px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    ul.links .icon {
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+      color: #666;
     }
 
     ul.links a {
@@ -120,10 +130,14 @@
   <section>
     <h2>About</h2>
     <p>
-      My interests have always spanned two areas: mathematical work and
-      international security, government, and public sector work. When I came to
-      school I was torn on where to focus — until I decided to pursue both, which
-      led me to cybersecurity.
+      My interest in cybersecurity comes from a lifelong pull toward two things:
+      mathematics and global affairs. When I came to school I was torn between the
+      two — until I realized cybersecurity is where they actually meet. It lets me
+      use analytical, quantitative skills while staying rooted in a human-centered
+      field, one where the work has real consequences for people and institutions
+      rather than existing in the abstract. That combination — rigorous
+      problem-solving in service of something beyond myself — is what keeps me
+      drawn to it.
     </p>
   </section>
 
@@ -137,9 +151,22 @@
   <section>
     <h2>Contact</h2>
     <ul class="links">
-      <li><a href="mailto:talfayer@gmail.com">talfayer@gmail.com</a></li>
-      <li><a href="https://www.linkedin.com/in/talfayer123/" target="_blank">LinkedIn</a></li>
-      <li><a href="https://github.com/talfayer" target="_blank">GitHub</a></li>
+      <li>
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg>
+        <a href="mailto:talfayer@gmail.com">talfayer@gmail.com</a>
+      </li>
+      <li>
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"></path><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"></path></svg>
+        <a href="mailto:talfayer@unc.edu">talfayer@unc.edu</a>
+      </li>
+      <li>
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"></path><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"></path></svg>
+        <a href="https://www.linkedin.com/in/talfayer123/" target="_blank">LinkedIn</a>
+      </li>
+      <li>
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+        <a href="https://github.com/talfayer" target="_blank">GitHub</a>
+      </li>
     </ul>
   </section>
 
